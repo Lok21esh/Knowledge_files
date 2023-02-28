@@ -1,0 +1,9 @@
+Suppose you want to ssh from host-A to Host-B
+
+In Host-A
+create a file and add the private key of the host-B
+	vi thorkey
+change permissions of the file
+	chmod 600 thorkey 
+Now execute the ssh command
+	ssh -i thorkey ubuntu@172.31.8.133
