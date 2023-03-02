@@ -1,1 +1,24 @@
-Creating
+Creating a Symlink
+
+
+Let's suppose folder A - /var/log/folderA(or)fileA - if you need to create a symlink to this file or folder with same or different name in another location suppose /home/user/
+
+
+execute the symlink command
+
+	ln -s /var/log/fileA /home/user/symlinkfileA
+
+
+now the symlink is created, go to the other location and validate
+
+
+	cd /home/user/ 
+	ls
+
+
+you can see a file created with symlink here, it showsup like this
+	
+symlinkfileA -> /var/log/fileA
+
+
+whatever changes happen in /var/log/file will be replicated in symlinkfileA
