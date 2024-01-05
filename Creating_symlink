@@ -16,7 +16,7 @@ now the symlink is created, go to the other location and validate
 	ls
 
 
-you can see a file created with symlink here, it showsup like this
+you can see a file created with symlink here, it showsup like this .
 	
 symlinkfileA -> /var/log/fileA
 
